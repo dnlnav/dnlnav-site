@@ -7,7 +7,22 @@ module.exports = {
     'public/**/*.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        mainGreen: {
+          darker: '#0F3811',
+          dark: '#306230',
+          default: '#8CAC0D',
+          light: '#9BBC0F'
+        },
+        mainGrey: {
+          darker: '#000000',
+          dark: '#555555',
+          default: '#AAAAAA',
+          light: '#FFFFFF'
+        }
+      }
+    },
   },
   variants: {},
   plugins: [],
