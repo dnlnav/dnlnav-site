@@ -1,6 +1,6 @@
 import React from 'react';
 import Heading from '../components/Heading';
-import '../styles/main.scss'
+import '../main.css'
 
 export default function Home() {
   return <Heading />;
